@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <center>
+        <style>
+            table, tr, td, th
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+
+        <form>
+        <table>
+            <tr>
+                <th width="300px" style="background-color: aqua;">Name</th>
+                <th width="150px" style="background-color: aqua;">Value</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                    <td>
+                        <input type="text" id="name" name="name">
+                    </td>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="sex">Sex:</label>
+                </td>
+                <td>
+                    <input type="radio" id="sex" name="sex"> Male
+                    <br>
+                    <input type="radio" id="sex" name="sex"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="eyecolor">Eyes color:</label>
+                    <td>
+                        <select>
+                            <option>Brown</option>
+                            <option>Blcak</option>
+                            <option>Green</option>
+                            <option>Blue</option>
+                        </select>
+                    </td>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Check">Check all that apply:</label>
+                    <td>
+                        <input type="checkbox"> Over 6 feet tall 
+                        <br>
+                        <input type="checkbox"> Over 200 pounds
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="athletic">Describe your athletic ability:</label>
+                    <br>
+                    <textarea rows="10" cols="63"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Enter my information">
+                </td>
+            </tr>
+        </table>
+        </form>
+        </center>
+    </body>
+</html>
